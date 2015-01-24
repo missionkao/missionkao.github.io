@@ -1,0 +1,31 @@
+nav,
+section{
+  display: block;
+}
+
+.block {
+  position: relative;
+  margin: 0 auto;
+  top: 50%;
+  margin-top: 0px;
+  width: 1024px;
+}
+
+.intro .title {
+  position: relative;
+  margin: 0 auto;
+}
+
+.intro .title h1 {
+  margin: 10px;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.intro .title h2 {
+  margin-left: 3em;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}

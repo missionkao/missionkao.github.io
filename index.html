@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link href="./stylesheets/print.css" rel="stylesheet" type="text/css" />
 
 	<script src="./javascripts/jquery-1.8.3.js"></script>
   	<script src="./javascripts/jquery.bpopup.min.js"></script>
@@ -14,7 +15,7 @@
 	<title>Mission Kao</title>
 </head>
 <body>
-	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
 	    <div class="container">
 	        <div class="navbar-header">
 	        	<a class="navbar-brand active" href="#intro">Resume</a>
@@ -29,6 +30,26 @@
 	          	</ul>
 	        </div>
 	    </div>
-	</div>
+	</nav>
+
+	<!-- <section id="intro" class="slide intro jumbotron" style="background-image: url('images/cover.jpg')"> -->
+	<section id="intro" class="slide intro jumbotron">
+		<div class="bg" style="position: fixed; width: 100%; height: 100%; background-image: url('images/cover.jpg'); background-size: cover; background-repeat: no-repeat; background-position: top center; z-index: 0"></div>
+		<!-- <h1>
+			<img src="images/mission.jpg" alt="Generic placeholder image" style="width: 270px; height: 270px; float: right">
+		</h1>
+		<h2>高旻暄</h2> -->
+		<div class="block">
+			<div class="title">
+				<img src="images/mission.jpg" alt="Generic placeholder image" style="width: 270px; height: 270px; float: right">
+				<h1>高旻暄 Terry Kao</h1>
+				<h1>求學經歷:</h1>
+				<h2>彰化高中 數理資優班</h2>
+				<h2>交通大學 電子工程系</h2>
+				<h2>台灣大學 電信工程所 通信系統組</h2>
+			</div>
+		</div>
+	</section>
+
 </body>
 </html>
