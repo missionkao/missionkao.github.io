@@ -11,13 +11,19 @@ section{
   width: 1024px;
 }
 
+.slide {
+  width: 100%;
+  min-height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+
 .intro .title {
   position: relative;
-  margin: 0 auto;
 }
 
 .intro .title h1 {
-  margin: 10px;
+  margin-top: 60px;
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   font-size: 36px;
@@ -28,4 +34,15 @@ section{
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   font-size: 30px;
+}
+
+.sidenav-active {
+  background-color: rgba(255,255,255,0.2);
+}
+
+.research .title h1 {
+  margin-top: 60px;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
 }

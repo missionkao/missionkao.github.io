@@ -2,35 +2,39 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	
 	<link href="./stylesheets/print.css" rel="stylesheet" type="text/css" />
-
-	<script src="./javascripts/jquery-1.8.3.js"></script>
-  	<script src="./javascripts/jquery.bpopup.min.js"></script>
-  	<script src="./javascripts/jquery.fittext.js"></script>
+  	
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   	<script src="./javascripts/skrollr.min.js"></script>
   	<script src="./javascripts/skrollr.menu.min.js"></script>
-
 	<title>Mission Kao</title>
 </head>
 <body>
-	<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 	    <div class="container">
 	        <div class="navbar-header">
-	        	<a class="navbar-brand active" href="#intro">Resume</a>
+	        	<a class="navbar-brand" href="#">Resume</a>
+	        	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>                        
+      			</button>
 	        </div>
-	        <div>
+
+	        <div class="collapse navbar-collapse" id="myNavbar">
 				<ul class ="nav navbar-nav">
-	            	<li><a href="#">About</a></li>
-	            	<li><a href="#">Research</a></li>
+	            	<li><a href="#intro" data-anchor-target="#intro" data-40-top-top="@class:sidenav-active" data-40-top-bottom="@class:sidenav-active" data-edge-strategy="reset">About</a></li>
+	            	<li><a href="#research" data-anchor-target="#research" data-40-top-top="@class:sidenav-active" data-40-top-bottom="@class:sidenav-active" data-edge-strategy="reset">Research</a></li>
 	            	<li><a href="#">Experiences</a></li>
 	            	<li><a href="#">Skills</a></li>
 	            	<li><a href="#">Interests</a></li>
 	          	</ul>
 	        </div>
 	    </div>
-	</nav>
+	</div>
 
 	<!-- <section id="intro" class="slide intro jumbotron" style="background-image: url('images/cover.jpg')"> -->
 	<section id="intro" class="slide intro jumbotron">
@@ -43,13 +47,27 @@
 			<div class="title">
 				<img src="images/mission.jpg" alt="Generic placeholder image" style="width: 270px; height: 270px; float: right">
 				<h1>高旻暄 Terry Kao</h1>
-				<h1>求學經歷:</h1>
+				<h1>Education:</h1>
 				<h2>彰化高中 數理資優班</h2>
 				<h2>交通大學 電子工程系</h2>
 				<h2>台灣大學 電信工程所 通信系統組</h2>
 			</div>
 		</div>
 	</section>
-
+	
+	<section id="research" class="slide research" style="background-image: url('images/adcsl.png')">
+		<div class="block">
+			<div class="title">
+				<h1>Channel Estimation in TDD Massive MIMO Systems With Received Beamforming</h1>
+			</div>
+		</div>
+	</section>
+	
 </body>
+
+<script>
+	var sk = skrollr.init({forceHeight:false});
+    skrollr.menu.init(sk);
+</script>
+
 </html>
