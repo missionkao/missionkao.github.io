@@ -28,7 +28,7 @@
 				<ul class ="nav navbar-nav">
 	            	<li><a href="#intro" data-anchor-target="#intro" data-40-top-top="@class:sidenav-active" data-40-top-bottom="@class:sidenav-active" data-edge-strategy="reset">About</a></li>
 	            	<li><a href="#research" data-anchor-target="#research" data-40-top-top="@class:sidenav-active" data-40-top-bottom="@class:sidenav-active" data-edge-strategy="reset">Research</a></li>
-	            	<li><a href="#">Experiences</a></li>
+	            	<li><a href="#experience" data-anchor-target="#experience" data-40-top-top="@class:sidenav-active" data-40-top-bottom="@class:sidenav-active" data-edge-strategy="reset">Experiences</a></li>
 	            	<li><a href="#">Skills</a></li>
 	            	<li><a href="#">Interests</a></li>
 	          	</ul>
@@ -38,11 +38,7 @@
 
 	<!-- <section id="intro" class="slide intro jumbotron" style="background-image: url('images/cover.jpg')"> -->
 	<section id="intro" class="slide intro jumbotron">
-		<div class="bg" style="position: fixed; width: 100%; height: 100%; background-image: url('images/cover.jpg'); background-size: cover; background-repeat: no-repeat; background-position: top center; z-index: 0"></div>
-		<!-- <h1>
-			<img src="images/mission.jpg" alt="Generic placeholder image" style="width: 270px; height: 270px; float: right">
-		</h1>
-		<h2>高旻暄</h2> -->
+		<div class="bg"></div>
 		<div class="block">
 			<div class="title">
 				<img src="images/mission.jpg" alt="Generic placeholder image" style="width: 270px; height: 270px; float: right">
@@ -55,13 +51,42 @@
 		</div>
 	</section>
 	
-	<section id="research" class="slide research" style="background-image: url('images/adcsl.png')">
+	<script>
+  		var width = window.innerWidth + 'px';
+  		var height = window.innerHeight + 'px';
+  		document.getElementById("intro").style.minHeight = height;
+	</script>
+
+
+	<section id="research" class="slide research">
 		<div class="block">
 			<div class="title">
 				<h1>Channel Estimation in TDD Massive MIMO Systems With Received Beamforming</h1>
 			</div>
 		</div>
 	</section>
+
+	<script>
+  		var width = window.innerWidth + 'px';
+  		var height = window.innerHeight + 'px';
+  		document.getElementById("research").style.minHeight = height;
+  		// document.getElementById("research").style.width = width;
+	</script>
+
+	<section id="experience" class="slide experience">
+		<div class="block">
+			<div class="title">
+				<h1>Experience</h1>
+			</div>
+		</div>
+	</section>
+	
+	<script>
+  		var width = window.innerWidth + 'px';
+  		var height = window.innerHeight + 'px';
+  		document.getElementById("experience").style.minHeight = height;
+  		// document.getElementById("research").style.width = width;
+	</script>
 	
 </body>
 
