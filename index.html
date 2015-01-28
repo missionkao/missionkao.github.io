@@ -10,6 +10,8 @@
   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   	<script src="./javascripts/skrollr.min.js"></script>
   	<script src="./javascripts/skrollr.menu.min.js"></script>
+  	<script src="http://code.highcharts.com/highcharts.js"></script>
+  	<script src="./javascripts/chart.js"></script>
 	<title>Mission Kao</title>
 </head>
 <body>
@@ -29,8 +31,8 @@
 	            	<li><a href="#intro" data-anchor-target="#intro" data-40-top-top="@class:sidenav-active" data-40-top-bottom="@class:sidenav-active" data-edge-strategy="reset">About</a></li>
 	            	<li><a href="#research" data-anchor-target="#research" data-40-top-top="@class:sidenav-active" data-40-top-bottom="@class:sidenav-active" data-edge-strategy="reset">Research</a></li>
 	            	<li><a href="#experience" data-anchor-target="#experience" data-40-top-top="@class:sidenav-active" data-40-top-bottom="@class:sidenav-active" data-edge-strategy="reset">Experiences</a></li>
-	            	<li><a href="#">Skills</a></li>
-	            	<li><a href="#">Interests</a></li>
+	            	<li><a href="#skill">Skills</a></li>
+	            	<li><a href="#interest">Interests</a></li>
 	          	</ul>
 	        </div>
 	    </div>
@@ -86,6 +88,36 @@
   		var height = window.innerHeight + 'px';
   		document.getElementById("experience").style.minHeight = height;
   		// document.getElementById("research").style.width = width;
+	</script>
+
+	<section id="skill" class="slide skill">
+		<div class="block">
+			<div class="title">
+				<h1>Skills</h1>
+			</div>
+			<div id="container" style="width:70%; height:50%;"></div>
+			<div id="language" style="width:70%; height:50%;"></div>
+		</div>
+	</section>
+	
+	<script>
+  		var width = window.innerWidth + 'px';
+  		var height = window.innerHeight + 'px';
+  		document.getElementById("skill").style.minHeight = height;
+	</script>
+
+	<section id="interest" class="slide interest">
+		<div class="block">
+			<div class="title">
+				<h1>Interests</h1>
+			</div>
+		</div>
+	</section>
+	
+	<script>
+  		var width = window.innerWidth + 'px';
+  		var height = window.innerHeight + 'px';
+  		document.getElementById("interest").style.minHeight = height;
 	</script>
 	
 </body>
