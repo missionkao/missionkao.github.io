@@ -12,8 +12,8 @@ $(function () {
             text: 'Technology Skills / Languages'
         },
         xAxis: {
-            categories: ['Matlab', 'HTML5/CSS', 'Javascript', 'Java','C/C++', 'Android','IOS' ,'Verilog', 
-                            'Mandarin', 'Taiwanese', 'English', 'Japanese']
+            categories: ['Matlab', 'iOS/Swift', 'HTML5/CSS/Javascript', 'Java', 'Android','C/C++','Verilog', 
+                            '中文', '台語', '英語', '日語']
         },
         yAxis: {
             title: {
@@ -28,7 +28,7 @@ $(function () {
         },
         series: [{
             name: 'Terry Kao',
-            data: [90, 70, 60, 60, 50, 30, 20, 10, 100, 90, 60, 20 ]
+            data: [90, 60, 40, 30, 30, 30, 10, 100, 80, 50, 10 ]
         }]
     });
 });

@@ -57,7 +57,8 @@ html {
   width: 270px; 
   height: 270px; 
   float:right;
-  margin-right: 200px
+  margin-right: 300px;
+  border-radius: 50%;
 }
 
 .intro .title {
@@ -72,11 +73,11 @@ html {
   font-size: 36px;
 }
 
-.intro .title h2 {
-  margin-left: 300px;
+.intro .title #edu {
+  margin-left: 200px;
+  margin-top:20px;
   font-family: "Oswald", sans-serif;
-  font-weight: bold;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 
@@ -88,6 +89,13 @@ html {
   font-size: 24px;
 }
 
+.research .title div{
+  width:90%;
+  margin-left: 40px;
+  font-size: 18px;
+  text-indent : 2em;
+}
+
 .experience .title h1 {
   margin-top: 80px;
   margin-left: 100px;
@@ -95,6 +103,15 @@ html {
   font-weight: bold;
   font-size: 30px;
 }
+
+.experience .title div{
+  width:80%;
+  margin-left: 100px;
+  font-family: "Oswald", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
 .skill .title h1 {
   margin-top: 80px;
   margin-left: 100px;
@@ -108,4 +125,27 @@ html {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   font-size: 30px;
+}
+
+.interest .title div {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.main-view {
+  border:1px solid #ccc;
+  margin-top: 100px;
+  font-size: 16px;
+}
+
+.thumbnail-box {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.post {
+  color: white;
+  font-size: 16px;
 }
