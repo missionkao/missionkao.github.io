@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="./stylesheets/snow.css" rel="stylesheet" type="text/css" />
+  <script src="./javascripts/snow.js"></script>
+	<title>Snow Canvas</title>
+</head>
+
+<body>
+  <canvas id="snow"></canvas>
+</body>
+
+
+</html>
