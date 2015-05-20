@@ -7,7 +7,7 @@ window.onload = function(){
 	canvas.width = W;
 	canvas.height = H;
 
-	var max =25;
+	var max =50;
 	var particles = [];
 
 	for(var i=0;i<max;i++){
