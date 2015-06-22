@@ -1,0 +1,163 @@
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.sidenav-active {
+  background-color: rgba(255,255,255,0.2);
+}
+
+.intro {
+  margin-top: 0px;
+	position: fixed; 
+	width: 100%;  
+	background-image: url('../images/slide_8.jpg'); 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-position: top center; 
+	z-index: 0;
+}
+
+.research{
+	background-image: url('../images/skill.jpg');
+	background-size: 100% 100%; 
+	background-repeat: no-repeat; 
+}
+.experience{
+	background-image: url('../images/sea.jpg');
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+}
+.skill{
+  background-image: url('../images/line3.jpg');
+  background-color: white;
+  background-size: 100% 100%; 
+  background-repeat: no-repeat;
+}
+.interest{
+  /*background-image: url('../images/slide_2.jpg');*/
+  background-size: 100% 100%; 
+  background-repeat: no-repeat;
+}
+
+.slide {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.block {
+  position: relative;
+  margin: 0;
+  width: 100%;
+}
+#mission{
+  width: 20%; 
+  height: 20%; 
+  float:right;
+  margin-right: 300px;
+}
+
+.intro .title {
+  position: relative;
+}
+
+.intro .title h1 {
+  margin-top: 40px;
+  margin-left: 200px;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.intro .title #edu {
+  margin-left: 210px;
+  margin-top:20px;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+}
+
+
+.research .title h1 {
+  margin-top: 80px;
+  margin-left: 40px;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.research .title div{
+  width:90%;
+  margin-left: 40px;
+  font-size: 30px;
+  text-indent : 2em;
+  color: white;
+}
+
+.experience .title h1 {
+  margin-top: 80px;
+  margin-left: 100px;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.experience .title div{
+  width:80%;
+  margin-left: 100px;
+  font-family: "Oswald", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.skill .title h1 {
+  margin-top: 60px;
+  margin-left: 100px;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.skill .title div{
+  width:80%;
+  margin-left: 100px;
+  font-family: "Oswald", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.interest .title h1 {
+  margin-top: 100px;
+  margin-left: 100px;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.interest .title div {
+  width:80%;
+  margin-left: 100px;
+  font-family: "Oswald", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.main-view {
+  border:1px solid #ccc;
+  margin-top: 100px;
+  font-size: 16px;
+}
+
+.thumbnail-box {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.post {
+  color: white;
+  font-size: 16px;
+}
