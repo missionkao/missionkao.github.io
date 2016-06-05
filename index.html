@@ -1,195 +1,20 @@
+<!-- index.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-	<meta charset="UTF-8">
-	
-	<link href="./stylesheets/print.css" rel="stylesheet" type="text/css" />
-	<link href="./stylesheets/social.css" rel="stylesheet" type="text/css" />
-  	
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-	<link href="style/buttons.css" rel="stylesheet" type="text/css">
-	<link href="style/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-  	<script src="./javascripts/skrollr.min.js"></script>
-  	<script src="./javascripts/skrollr.menu.min.js"></script>
-  	<script src="http://code.highcharts.com/highcharts.js"></script>
-  	<script src="./javascripts/chart.js"></script>
-	<title>Mission Kao</title>
+    <meta charset="utf-8" />
+    <title>React Tutorial</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.6.2/remarkable.min.js"></script>
 </head>
+
 <body>
-	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-	    <div class="container">
-	        <div class="navbar-header">
-	        	<a class="navbar-brand" href="#">Resume</a>
-	        	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        			<span class="icon-bar"></span>
-        			<span class="icon-bar"></span>
-        			<span class="icon-bar"></span>                        
-      			</button>
-	        </div>
-
-	        <div class="collapse navbar-collapse" id="myNavbar">
-				<ul class ="nav navbar-nav">
-	            	<li><a href="#intro" data-anchor-target="#intro" data-40-top-top="@class:sidenav-active" data-40-top-bottom="@class:sidenav-active" data-edge-strategy="reset">About</a></li>
-	            	<li><a href="#research" data-anchor-target="#research" data-40-top-top="@class:sidenav-active" data-40-top-bottom="@class:sidenav-active" data-edge-strategy="reset">Research</a></li>
-	            	<li><a href="#experience" data-anchor-target="#experience" data-40-top-top="@class:sidenav-active" data-40-top-bottom="@class:sidenav-active" data-edge-strategy="reset">Experiences</a></li>
-	            	<li><a href="#skill">Skills</a></li>
-	            	<li><a href="#interest">Projects</a></li>
-	          	</ul>
-	        </div>
-	    </div>
-	</div>
-
-	<!-- <section id="intro" class="slide intro jumbotron" style="background-image: url('images/cover.jpg')"> -->
-	<section id="intro" class="slide intro jumbotron">
-		<!-- <div class="bg"></div> -->
-		<div class="block">
-			<div class="title">
-				<img src="images/mission.jpg" alt="Generic placeholder image" id="mission">
-				<h1>高旻暄 Terry Kao</h1>
-				<div id="edu">
-				台灣大學 電信工程所 碩士</br>
-				交通大學 電子工程系 學士
-				</div>
-				<div id="social-buttons">
-					<a target="_blank" class="fa fa-facebook-square fa-2x" href="https://www.facebook.com/missionkao"></a>
-					<a target="_blank" class="fa fa-google-plus-square fa-2x" href="https://plus.google.com/+MingHsuanKao"></a>
-					<a target="_blank" class="fa fa-github fa-2x" href="https://github.com/missionkao"></a>
-					<a target="_blank" class="fa fa-instagram fa-2x" href="https://instagram.com/missionkao/"></a>
-					<a target="_blank" class="fa fa-pinterest-square fa-2x" href="https://www.pinterest.com/missionkao/"></a>
-					<a target="_blank" class="fa fa-twitter-square fa-2x" href="https://twitter.com/MissionKao"></a>
-					<a target="_blank" class="fa fa-tumblr-square fa-2x" href="http://missionkao.tumblr.com"></a>
-					<a target="_blank" class="fa fa-flickr fa-2x" href="https://www.flickr.com/photos/missionkao/"></a>
-				</div>
-				
-			</div>
-		</div>
-	</section>
-	
-	<script>
-  		var width = window.innerWidth + 'px';
-  		var height = window.innerHeight + 'px';
-  		document.getElementById("intro").style.minHeight = height;
-	</script>
-
-
-	<section id="research" class="slide research">
-		<div class="block">
-			<div class="title">
-				<h1>Training Sequence Assignment in Uplink TDD Massive MIMO Systems</h1>
-				<div><img src="images/channelestimation.png" width="40%" height="40%" vspace="2" hspace="10" align="right"/>This thesis addresses the problem of channel estimation in multi-user interference limited cellular networks. Such networks deal with the multi-user interference by way of the limitation resource of training sequence. This problem would be more critical when the number of user become more and more such that some users should reuse the resource of training sequence and it would cause serious interference problem. In this thesis, we proposed a training-based channel estimation scheme with received beamforming method in time division duplex (TDD) multi-user large-scale multiple-antenna communication systems (so-called "massive" MIMO) in order to improve the channel estimation error. The proposed method appropriately arranged the training sequence for users and used the received beamforming method to reduce the inter-user-interference (IUI) or inter-symbol-interference (ISI). Simulation results show that the proposed method can reduce the channel estimation error and we further simulate the uplink transmission with CSIR at base station (BS) to verify our work.
-				</br></br>Key words: Large-scale antenna, Time-division duplexing, Beamforming, Channel estimation, Training sequence</div>
-			</div>
-		</div>
-	</section>
-
-	<script>
-  		var width = window.innerWidth + 'px';
-  		var height = window.innerHeight + 'px';
-  		document.getElementById("research").style.minHeight = height;
-  		// document.getElementById("research").style.width = width;
-	</script>
-
-	<section id="experience" class="slide experience">
-		<div class="block">
-			<div class="title">
-				<h1>Summer Intern</h1>
-					<div>中華電信研究所  雲端所  (2013 年 7 月~2013 年 8 月)</br>
-					 測試公司設計的雲端管理軟體系統，於雲端資料中心執行擬真的多應用、多協定平行效能測試，並比較分析各種虛擬化網路技術與架構的效能優劣。
-					</div>
-				<h1>School Club</h1>
-					<div>台灣大學  攝影社</br>
-					台灣大學  不同凡響社  (探討社會企業)</br>
-					台灣大學  美食評論社 </br>
-					台灣大學  電機系  足球隊 </br>
-					交通大學  OpenHouse 企業徵才小組  專刊組 </br>
-					交通大學  吉他社</br>
-					交通大學  彰友會</br>
-					</div>
-			</div>
-		</div>
-	</section>
-	
-	<script>
-  		var width = window.innerWidth + 'px';
-  		var height = window.innerHeight + 'px';
-  		document.getElementById("experience").style.minHeight = height;
-  		// document.getElementById("research").style.width = width;
-	</script>
-
-	<section id="skill" class="slide skill">
-		<div class="block">
-			<div class="title">
-			<!-- <h1>Skill/Language</h1> -->
-			<!-- <div id="language" style="width:70%; height:50%;"></div> -->
-			<div id="container" style="width:80%; height:520px; margin-top: 80px; margin-left:90px"></div>
-			</div>
-			
-		</div>
-	</section>
-	
-	<script>
-  		var width = window.innerWidth + 'px';
-  		var height = window.innerHeight + 'px';
-  		document.getElementById("skill").style.minHeight = height;
-	</script>
-
-	<section id="interest" class="slide interest">
-		<div class="block">
-			<!-- <div class="title">
-				<h1>Interests</h1>
-				<div class="row">
-    				<div class="col-sm-4" style="margin-left:50px">Android App
-					<img src="images/Android.png"/>
-    				</div>
-    				<div class="col-sm-4">iOS App/Swift</div>
-   					<div class="col-sm-4">Chrome Extention</div>
-  				</div>
-			</div> -->
-			<div class="container">
-    			<div class="row">
-      				<div class="pin-box col-xs-4">
-        				<div class="thumbnail-box"><img src="images/liveHouse.png"/></div>			
-        			<div class="post">
-          				<h4>Android App</h4>
-          				<p>List all upcoming programs of Live House in Taipei.</p>
-       				</div>
-      				</div>
-      
-      				<div class="pin-box col-xs-4">
-        				<div class="thumbnail-box"><img src="images/youtube.png"/></div>	
-        			<div class="post">
-          				<h4>iOS App in Swift</h4>
-          				<p>Add the video link if you like in Youtube into bookmark.</p>
-        			</div>
-     				</div>
-      
-      				<div class="pin-box col-xs-4">
-        				<div class="thumbnail-box"><img src="images/chrome.png"/></div>
-					<div class="post">
-         				<h4>Chrome Extention</h4>
-          				<p>Close a canvas animation in Plurk.</p>
-        			</div>
-      				</div>
-      
-    			</div>
-  			</div>
-		</div>
-	</section>
-	
-	<script>
-  		var width = window.innerWidth + 'px';
-  		var height = window.innerHeight + 'px';
-  		document.getElementById("interest").style.minHeight = height;
-	</script>
-	
+    <div id="btn"></div>
+    <script type="text/babel" src="scripts/button.js"></script>
 </body>
-
-<script>
-	var sk = skrollr.init({forceHeight:false});
-    skrollr.menu.init(sk);
-</script>
 
 </html>
